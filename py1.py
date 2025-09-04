@@ -1,3 +1,4 @@
+""" The code below calculates the factorial, permutation, and combination of numbers n,r"""
 def factorial(n):
     """ calculates the factorial of a positive integer"""
     output = 1
@@ -24,7 +25,6 @@ def main():
         print("Factorial of this number is undefined")
     else:
         print("The Factorial of this number is", factorial(n))
-    
     if r < 0 or n < r:
         print("Permutation and Combination both does not exist")
     else:
