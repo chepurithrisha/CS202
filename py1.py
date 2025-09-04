@@ -25,3 +25,5 @@ if r<0 or n<r or n<0:
 else:
     print("The Permutation of n and r is",permutation(n,r))
     print("The combination of n and r is",combination(n,r))
+
+# my first comment 
